@@ -22,7 +22,7 @@ In the folder `3. Edge Removal Process`, there are two programs: `remove.py` for
 
 ## 4. Main
 
-Navigate to the `4. Main` folder to find scripts `Graph_Disturb.py` and `Graph_Disturb_real.py`. These programs are used to calculate ECS similarity scores with more edges removed from graphs.
+Navigate to the `4. Main` folder to find programs `Graph_Disturb.py` and `Graph_Disturb_real.py`. These programs are used to calculate ECS similarity scores with more edges removed from graphs.
 
 ## Usage
 
@@ -32,7 +32,7 @@ Detailed instructions and examples for running the code are provided in each fol
 
 ### Computation Environment
 
-Our computations are performed on the Big Red 200 supercomputer, an HPE Cray EX system designed to support scientific and medical research, as well as advanced research in artificial intelligence, machine learning, and data analytics.
+Our computations are performed on the Big Red 200 supercomputer, an HPE Cray EX system designed by Indiana University to support scientific and medical research, as well as advanced research in artificial intelligence, machine learning, and data analytics.
 
 - **Specifications:**
   - 640 compute nodes with 256 GB of memory each
