@@ -1,6 +1,6 @@
 # Main - Graph Disturbance Programs
 
-This folder contains programs for graph disturbance analysis on synthetic graphs using "Graph_Disturb.py" and on real-world graphs using "Graph_Disturb_real.py."
+This folder contains programs to evaluate robustness of network community detection under graph disturbance on synthetic graphs using "Graph_Disturb.py" and on real-world graphs using "Graph_Disturb_real.py."
 
 ## Graph Disturbance for Synthetic Graphs - `Graph_Disturb.py`
 This program is designed to evaluate robustness of community structure for LFR synthetic networks.
@@ -8,11 +8,18 @@ This program is designed to evaluate robustness of community structure for LFR s
 ### Input Files
 
 - `graph_1000_0.01.between`: File storing the betweenness centrality of nodes.
-- `graph_1000_0.01.edgelist`: File storing the edgelist of the generated graph.
+
+- `graph_1000_0.01.edgelist`: File storing the edgelist of the LFR graph.
+
 - `graph_1000_0.01.membership`: File storing the community membership of nodes.
+
 - `graph_1000_0.01.rank`: File storing the betweenness centrality rank of nodes.
+
 - `graph_1000_0.01.stoch_rmv`: File containing edge/node removal sequences for random node selection.
+
 - `graph_1000_0.01.rank_rmv`: File containing edge/node removal sequences for targeted node selection based on betweenness centrality rank.
+
+  *Note: The numbers in the file names (e.g., 1000 and 0.01) are examples representing the number of nodes and mixing parameters.*
 
 ### Parameters
 
@@ -27,10 +34,10 @@ This program is designed to evaluate robustness of community structure for LFR s
 - For Random Node Selection: `Stoch_{Number of nodes}_{mixing parameter}_{embedding dimension}dim_{method id}_MEAN.csv`
 - For Targeted Node Selection: `Rank_{Number of nodes}_{mixing parameter}_{embedding dimension}dim_{method id}_MEAN.csv`
 
-*Note: The numbers in the file names (e.g., 1000 and 0.01) are examples representing the number of nodes and mixing parameters.*
+
 
 ## Graph Disturbance for Real-World Graphs - `Graph_Disturb_real.py`
-This program is designed to evaluate robustness of community structure for LFR synthetic networks. Everything is similar with that in `Graph_Disturb.py`.
+This program is designed to evaluate robustness of community structure for real world networks. Everything is similar with that in `Graph_Disturb.py`.
 ## Note
 
 - The usage of LINE and LLE depends on the availability of a GPU.
