@@ -6,7 +6,7 @@ This GitHub repository contains the code and tools used in the research paper ti
 
 ## 0. Package WGE
 
-In the folder `0. Package WGE`, you will find the tools and functions we designed to carry out various tasks.
+In the folder `0. Package WGE`, you will find the tools and functions we designed to carry out various tasks. They are enclosed as a package `WGE`, which can be installed from the folder.
 
 ## 1. Real World Graph Pre-Processing
 
@@ -27,6 +27,34 @@ Navigate to the `4. Main` folder to find scripts `Graph_Disturb.py` and `Graph_D
 ## Usage
 
 Detailed instructions and examples for running the code are provided in each folder's respective README files.
+
+## Requirements
+
+### Computation Environment
+
+Our computations are performed on the Big Red 200 supercomputer, an HPE Cray EX system designed to support scientific and medical research, as well as advanced research in artificial intelligence, machine learning, and data analytics.
+
+- **Specifications:**
+  - 640 compute nodes with 256 GB of memory each
+  - Two 64-core, 2.25 GHz, 225-watt AMD EPYC 7742 processors per node
+  - 64 GPU-accelerated nodes with 256 GB of memory
+  - Single 64-core, 2.0 GHz, 225-watt AMD EPYC 7713 processor per GPU node
+  - Four NVIDIA A100 GPUs per GPU node
+  - Theoretical peak performance (Rpeak) of nearly 7 petaFLOPS
+  - Managed with HPE's Performance Cluster Manager (HPCM)
+  - Operating System: SUSE Enterprise Linux Server (SLES) version 15 on compute, GPU, and login nodes
+
+### Modules Used
+
+The following modules are loaded for the project on Big Red 200:
+
+```bash
+module load cudatoolkit
+module load python/gpu/3.10.5
+```
+
+### Python Packages
+All the required Python packages for running our experiments are listed in the `requirements.txt` file.
 
 ## License
 
