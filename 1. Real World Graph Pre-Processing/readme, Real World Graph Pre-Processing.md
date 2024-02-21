@@ -31,4 +31,4 @@ This folder contains real-world graph pre-processing programs for two networks: 
 
 Feel free to explore and utilize the pre-processed data for further analysis or integration into your research.
 
-For any questions or issues, please refer to the documentation or contact zfwei11@gmail.com.
+For any questions or issues, please refer to the documentation or contact [zfwei11@gmail.com](mailto:zfwei11@gmail.com).
