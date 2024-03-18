@@ -6,15 +6,15 @@ This GitHub repository contains the code and tools used in the research paper ti
 
 ## 0. Package WGE
 
-In the folder `0. Package WGE`, you will find the tools and functions we designed to carry out various tasks. They are enclosed as a package `WGE`, which can be installed from the folder.
+In the folder `0. Package WGE`, you will find some basic tools and functions we designed to carry out various tasks. They are enclosed as a package `WGE`, which can be installed from the folder.
 
 ## 1. Real World Graph Pre-Processing
 
-In the folder `1. Real World Graph Pre-Processing`, you will find two real-world networks stored in `.gml` files. The notebook `GML_2_NetworkX & Test.ipynb` is provided to extract the edge list and community membership of nodes in these networks. Additionally, the notebook tests the distribution of community sizes and degree sequences for both networks.
+In the folder `1. Real World Graph Pre-Processing`, you will find two real-world networks stored in `.gml` files. The notebook `GML_2_NetworkX & Test.ipynb` is provided to extract the edge list and community membership of nodes in these real-world networks. Additionally, the notebook tests the distribution of community sizes and degree sequences for both networks.
 
 ## 2. Graph Generation and Pre-Processing
 
-Navigate to `2. Graph Generation and Pre-Processing` to find files (`Gene_1k.py`, `Gene_1w.py`, `Gene_1k.ipynb`, `Gene_1w.ipynb`) for generating LFR networks. The generated networks are used to output the betweenness centrality of network nodes. The notebook `Gene_Btwn_Rank.ipynb` allows obtaining node ranks based on betweenness centrality.
+Navigate to `2. Graph Generation and Pre-Processing` to find files (`Gene_1k.py`, `Gene_1w.py`, `Gene_1k.ipynb`, `Gene_1w.ipynb`) for generating LFR networks. The betweenness centrality of network nodes are also calculated and output. The notebook `Gene_Btwn_Rank.ipynb` allows obtaining node ranks based on betweenness centrality.
 
 ## 3. Edge Removal Process
 
