@@ -2,7 +2,7 @@
 
 ## Overview
 
-This GitHub repository contains the code and tools used in the research paper titled `Robustness of graph embedding methods for community detection` (arXiv here: UNDER CONSTRUCTION). The project focuses on evaluating robustness of community detection methods based on graph embeddings. Below is a brief guide to the organization of the repository.
+This GitHub repository contains the code and tools used in the research paper titled `Robustness of graph embedding methods for community detection` (arXiv here: UNDER CONSTRUCTION!!). The project focuses on evaluating robustness of community detection methods based on graph embeddings. Below is a brief guide to the organization of the repository.
 
 ## 0. Package WGE
 
