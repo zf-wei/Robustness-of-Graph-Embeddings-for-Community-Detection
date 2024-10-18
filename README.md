@@ -9,7 +9,7 @@ This GitHub repository contains the code and tools used in the research paper ti
 If you use the script please cite this paper:
 
 ```
-@article{PhysRevE.108.054302,
+@article{
   title={Robustness of graph embedding methods for community detection},
   author={Wei, Zhi-Feng and Moriano, Pablo and Kannan, Ramakrishnan},
   journal={arXiv preprint arXiv:2405.00636},
