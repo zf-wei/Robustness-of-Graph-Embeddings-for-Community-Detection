@@ -1,10 +1,24 @@
-- # Robustness-of-Graph-Embeddings-for-Community-Detection
+# Robustness-of-Graph-Embeddings-for-Community-Detection
 
 ## Overview
 
 This GitHub repository contains the code and tools used in the research paper titled `Robustness of graph embedding methods for community detection` (
 [arXiv:2405.00636](https://arxiv.org/abs/2405.00636)
-). The project focuses on evaluating robustness of community detection methods based on graph embeddings. Below is a brief guide to the organization of the repository.
+). The project focuses on evaluating robustness of community detection methods based on graph embeddings. 
+
+If you use the script please cite this paper:
+
+```
+@article{PhysRevE.108.054302,
+  title={Robustness of graph embedding methods for community detection},
+  author={Wei, Zhi-Feng and Moriano, Pablo and Kannan, Ramakrishnan},
+  journal={arXiv preprint arXiv:2405.00636},
+  year={2024},
+  url = {https://arxiv.org/abs/2405.00636}
+}
+```
+
+Below is a brief guide to the organization of the repository.
 
 ## 0. Package WGE
 
